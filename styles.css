@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#title , #url{
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #f4f4f9;
+}
+button{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
+#bookmarkList{
+    list-style: none;
+    padding: 10px;
+}
+#bookmarkList li{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    margin-right: 0;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+}
+#bookmarkList button{
+    border-radius: 10px;
+    width: 100px;
+}

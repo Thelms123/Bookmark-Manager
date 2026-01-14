@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bookmark Manager</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Bookmark Manager</h1>
+         <div class="inputContainer">
+            <input type="text" id="title" placeholder="Bookmark Title">
+            <input type="url" id="url" placeholder="Bookmark URL">
+            <button id="addBookmarkBtn">Add Bookmark</button>
+         </div>
+
+         <div id="error" style="color: red; display: none;"></div>
+
+         <ul id="bookmarkList"></ul>
+    </div>
+
+    <script src="bookmark.js"></script>
+</body>
+</html>
